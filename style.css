@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+/* Tawny Port
+HEX: #761E63
+RGB: rgb(118,30,99)
+BIAS: 94%
+Paris White
+HEX: #C9DDD9
+RGB: rgb(201,221,217)
+BIAS: 94%
+WCAG Ratio: AA (6.94:1) */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: antiquewhite;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: rgb(20, 20, 23);
+  padding: 0 10rem;
+  color: white;
+}
+nav ul {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 6.6rem;
+}
+nav ul li {
+  /* width: 5rem; */
+  list-style-type: none;
+}
+nav ul li img {
+  height: 3rem;
+  /* display: flex; */
+  /* padding: 1rem 0; */
+}
+.menus {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 10rem;
+}
+.login {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.login_btn {
+  padding: 0.5em 0.8em;
+  background: none;
+  color: white;
+  border: 1px solid rgb(33, 68, 43);
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+/* ----------------------------------------------main_container---------------------------------------------- */
+.main_container {
+  background-color: #892072;
+  height: 40rem;
+}
+/* color: #c9ddd9; */
+/*
+drak #761E63 
+light #C9DDD9
+*/
+
+.music_img img {
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  /* background: url("/Image/sssplatter.svg"); */
+
+  background-color: #c9ddd9;
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 10px;
+}
